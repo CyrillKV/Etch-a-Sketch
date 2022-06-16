@@ -17,3 +17,7 @@ function fillGrid(n){
   }
 }
 
+document.querySelector('.gridSize').addEventListener('click', () =>{
+  const userPrompt = prompt('Enter Grid Size, please!');
+  fillGrid(userPrompt);
+})
